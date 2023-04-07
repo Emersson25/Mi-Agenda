@@ -1,6 +1,6 @@
 <?php include("../../templates/header.php"); ?>
 
-Crear Notas
+
 
 
 

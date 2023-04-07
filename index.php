@@ -3,16 +3,52 @@
 
   </br>
 
-    <div class="p-5 mb-4 bg-light rounded-3">
-        <div class="container-fluid py-5">
-          <h1 class="display-5 fw-bold">Custom jumbotron</h1>
-          <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-          <button class="btn btn-primary btn-lg" type="button">Example button</button>
-        </div>
-      </div>
+  <div class="jumbotron">
+			<h1 class="display-4">Agenda de contactos</h1>
 
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="card">
+						<div class="card-body">
+							<img src="contac.png" class="img-fluid" alt="Responsive image">
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 text-center">
+					<div class="card">
+						<div class="card-body">
+							<table class="table table-hover">
+								<tr>
+									<th>
+										Bienvenido a su Agenda Personal
+									</th>
+								</tr>
+								<tr>
+									<th>
+										esperamos que sea util
+									</th>
+								</tr>
+								<tr>
+									<th>
+					          Buena suerte
+									</th>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
 
-      <?php include("templates/footer.php"); ?>
+			<hr class="my-4">
+			<p>
+				Emersson Alejandro Ortiz Jacobo
+			</p>
+			
+		</div>
+
+	</div>
+
+  <?php include("templates/footer.php"); ?>
 
 
 
